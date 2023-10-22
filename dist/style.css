@@ -1727,10 +1727,6 @@ select {
     margin-right: 0px;
   }
 
-  .sm\:mb-12 {
-    margin-bottom: 3rem;
-  }
-
   .sm\:mb-\[72px\] {
     margin-bottom: 72px;
   }
@@ -1745,10 +1741,6 @@ select {
 
   .sm\:mt-10 {
     margin-top: 2.5rem;
-  }
-
-  .sm\:mt-\[100px\] {
-    margin-top: 100px;
   }
 
   .sm\:mt-\[72px\] {
@@ -1803,22 +1795,6 @@ select {
     width: 80%;
   }
 
-  .sm\:w-\[143px\] {
-    width: 143px;
-  }
-
-  .sm\:w-\[330px\] {
-    width: 330px;
-  }
-
-  .sm\:w-\[350px\] {
-    width: 350px;
-  }
-
-  .sm\:w-\[380px\] {
-    width: 380px;
-  }
-
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1855,22 +1831,8 @@ select {
     border-radius: 9999px;
   }
 
-  .sm\:border {
-    border-width: 1px;
-  }
-
   .sm\:border-t {
     border-top-width: 1px;
-  }
-
-  .sm\:border-\[\#030712\] {
-    --tw-border-opacity: 1;
-    border-color: rgb(3 7 18 / var(--tw-border-opacity));
-  }
-
-  .sm\:border-white {
-    --tw-border-opacity: 1;
-    border-color: rgb(255 255 255 / var(--tw-border-opacity));
   }
 
   .sm\:bg-primary-color {
@@ -1881,11 +1843,6 @@ select {
   .sm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .sm\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 
   .sm\:px-8 {
@@ -1908,10 +1865,6 @@ select {
     padding-bottom: 72px;
   }
 
-  .sm\:pb-\[50px\] {
-    padding-bottom: 50px;
-  }
-
   .sm\:pb-\[72px\] {
     padding-bottom: 72px;
   }
@@ -1926,15 +1879,6 @@ select {
 
   .sm\:text-left {
     text-align: left;
-  }
-
-  .sm\:font-Inter-Tight {
-    font-family: Inter Tight, sans-serif;
-  }
-
-  .sm\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
   }
 
   .sm\:text-\[104px\] {
@@ -1977,10 +1921,6 @@ select {
     font-size: 68px;
   }
 
-  .sm\:font-semibold {
-    font-weight: 600;
-  }
-
   .sm\:leading-\[104px\] {
     line-height: 104px;
   }
@@ -1993,27 +1933,7 @@ select {
     line-height: 155px;
   }
 
-  .sm\:text-\[\#030712\] {
-    --tw-text-opacity: 1;
-    color: rgb(3 7 18 / var(--tw-text-opacity));
-  }
-
   .sm\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
-
-  .sm\:hover\:bg-\[\#F2C94C\]:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(242 201 76 / var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:bg-primary-color:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(3 7 18 / var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:text-white:hover {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
@@ -2399,6 +2319,18 @@ select {
     height: 770px;
   }
 
+  .\33xl\:h-\[380px\] {
+    height: 380px;
+  }
+
+  .\33xl\:h-\[100px\] {
+    height: 100px;
+  }
+
+  .\33xl\:h-\[22px\] {
+    height: 22px;
+  }
+
   .\33xl\:w-10 {
     width: 2.5rem;
   }
@@ -2451,12 +2383,56 @@ select {
     width: 100%;
   }
 
+  .\33xl\:w-4\/5 {
+    width: 80%;
+  }
+
+  .\33xl\:w-1\/5 {
+    width: 20%;
+  }
+
+  .\33xl\:w-3\/4 {
+    width: 75%;
+  }
+
+  .\33xl\:w-3\/5 {
+    width: 60%;
+  }
+
+  .\33xl\:w-\[380px\] {
+    width: 380px;
+  }
+
+  .\33xl\:w-\[150px\] {
+    width: 150px;
+  }
+
+  .\33xl\:w-20 {
+    width: 5rem;
+  }
+
   .\33xl\:flex-col {
     flex-direction: column;
   }
 
   .\33xl\:items-center {
     align-items: center;
+  }
+
+  .\33xl\:justify-center {
+    justify-content: center;
+  }
+
+  .\33xl\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .\33xl\:gap-4 {
+    gap: 1rem;
+  }
+
+  .\33xl\:gap-2 {
+    gap: 0.5rem;
   }
 
   .\33xl\:gap-y-32 {
@@ -2485,6 +2461,15 @@ select {
   .\33xl\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .\33xl\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .\33xl\:pt-\[150px\] {
+    padding-top: 150px;
   }
 
   .\33xl\:text-\[130px\] {
@@ -2535,6 +2520,22 @@ select {
     font-size: 80px;
   }
 
+  .\33xl\:text-\[22px\] {
+    font-size: 22px;
+  }
+
+  .\33xl\:text-\[26px\] {
+    font-size: 26px;
+  }
+
+  .\33xl\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .\33xl\:text-\[40px\] {
+    font-size: 40px;
+  }
+
   .\33xl\:leading-\[100px\] {
     line-height: 100px;
   }
@@ -2561,5 +2562,13 @@ select {
 
   .\33xl\:leading-\[70px\] {
     line-height: 70px;
+  }
+
+  .\33xl\:leading-\[28px\] {
+    line-height: 28px;
+  }
+
+  .\33xl\:leading-\[44px\] {
+    line-height: 44px;
   }
 }
